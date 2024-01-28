@@ -1,11 +1,11 @@
 # packed-bed-void-fraction-
 ## Description
 
-The method employed in this project is Monte Carlo-like, where n axial (or radial) planes are generated, each with x randomly generated points. The algorithm checks whether each point falls inside or outside the pallets.
+The method employed in this simple script is Monte Carlo-like, where n axial (or radial) planes are generated, each with x randomly generated points. The algorithm checks whether each point falls inside or outside the pallets.
 
 ### Usage
 
-1. Use the OpenFOAM 'surfaceCheck' command on the stl file to obtain bed height and diameter.
+1. Use the OpenFOAM 'surfaceCheck' command on the stl file to obtain bed height and diameter to put in the script.
 2. Place the generated .obj files in the 'sandbox' folder.
 
 ### Output
